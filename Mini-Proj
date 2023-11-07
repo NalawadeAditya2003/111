@@ -1,0 +1,20 @@
+Login AWS account -> search ec2 -> launch instance -> give name and create key 
+pair -> and launch it -> select the instance created -> and copy the public Ip address
+Open putty -> paste the public Ip address -> In Connection(SSH -> Auth -> 
+Credentials)m -> In private key file for authentication (Browse the key created for
+AWS Instance) -> accept
+Login ->ec2-user
+Sudo yum update -y
+Sudo yum install docker
+Sudo docker –version
+Service docker start
+Service docker status
+docker images
+docker pull ubuntu
+docker run -it -d ubuntu
+docker ps
+docker exec -it (ID in ps) bash
+ls
+mkdir demo
+ls
+exit
