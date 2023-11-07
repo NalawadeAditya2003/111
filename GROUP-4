@@ -1,0 +1,11 @@
+  // GIT PUSH COMMAND
+  107  git init
+  108  git status
+  109  git status
+  110  git add jogi.txt
+  111  git status
+  112  git remote add origin https://github.com/NalawadeAditya2003/jk.git
+  113  git push -u origin master
+  114  git commit -m "first commit"
+  115  git push -u origin master
+  116  history
